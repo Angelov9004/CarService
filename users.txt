@@ -1,0 +1,6 @@
+admin,admin,admin
+technician,technician,technician
+staff,staff,staff
+premium,premium,client,premium
+gold,gold,client,gold
+silver,silver,client,silver

@@ -1,0 +1,5 @@
+BMW,BH7439AM,premium
+Opel,BH7722AM,silver
+Mazda,BH6942AM,gold
+Audi,CA4269AM,staff
+pejo,BH7788AM,pemium
