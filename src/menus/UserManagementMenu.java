@@ -65,7 +65,7 @@ public class UserManagementMenu {
                     } else {
                         System.out.println("List of All Users:");
                         for (User user : allUsers) {
-                            System.out.println(user.toString());
+                            System.out.println(user.getUsername());
                         }
                     }
                     break;
