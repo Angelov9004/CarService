@@ -24,12 +24,11 @@ public class Main {
         int choice;
 
         do {
-            System.out.println("Auto Service Application");
-            System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.println("Welcome to Car Repairs and Service management");
+            System.out.println("\n1.Register \n2.Login \n3.Exit");
 
-            System.out.print("Enter your choice: ");
+
+            System.out.print("Please Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
@@ -63,13 +62,13 @@ public class Main {
                                 break;
                         }
                     } else {
-                        System.out.println("Login failed.");
+                        System.out.println("Login failed,Please try again.");
                     }
                     break;
                 case 3:
                     // Save data to text files before exiting
                     dataStorage.saveAllDataToTextFiles();
-                    System.out.println("Exiting the application.");
+                    System.out.println("Turning off the system.");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
